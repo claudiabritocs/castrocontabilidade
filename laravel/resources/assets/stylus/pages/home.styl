@@ -1,0 +1,804 @@
+.inicial
+  position relative
+
+// BANNER
+
+.ws_images
+  max-height 675px!important
+  +below($tablet)
+    height auto!important
+.hidden_call
+  display none
+  +below($mobile)
+    display block
+    background-color #f4f3f2
+    height 180px
+    padding-bottom 50px
+  h1
+    lato 25
+    color #413226
+    font-weight 900
+    text-align center
+    padding-top 20px
+  h2 
+    muli 17
+    color #413226
+    text-align center
+    padding-top 10px 
+  .mainbutton2
+    margin-top 30px
+    margin-left auto
+    margin-right auto
+    border-radius 4px
+    background #cc9833
+    width 220px
+    height 50px
+    &:hover
+      background #ddb057
+  p
+    muli 16
+    font-weight 900
+    color white
+    text-transform uppercase
+    letter-spacing 0.5px
+    text-align center
+    padding-top 13px
+.banner
+  width 100%
+  height 580px
+  +below(1600px)
+    height 480px
+  +below($tablet)
+    height 250px
+  +below($mobile)
+    height 90%
+    padding-bottom 20px
+  .btn_link0
+    width 317px
+    height 55px
+    margin-left 25%
+    margin-top 3%
+    margin-bottom 5%
+    +below($tablet)
+      margin-top 2%
+      margin-left auto
+      margin-right auto
+      width 250px
+      height 43px
+    +below($mobile)
+      display none
+    a   
+      height 50px
+  img
+    max-width 510px
+    height auto
+    display block
+    margin-left auto
+    margin-right auto
+    padding-top 80px
+    +below(1600px)
+      padding-top 40px
+    +below($tablet)
+      width 20%
+      padding-top 20px
+    +below($mobile)
+      width 90%
+  h1
+    lato 50
+    color white
+    font-weight 900
+    text-shadow 2px 2px 2px #424242
+    margin-left 25%
+    margin-top 40px
+    max-width 400px
+    +below(1600px)
+      lato 40
+      margin-top 40px
+    +below($tablet)
+      lato 25
+      display block
+      margin 10px auto
+      text-align center
+    +below($mobile)
+      display none
+  h2
+    color white
+    font-size 18px
+    font-weight 500
+    text-shadow 2px 2px 2px #424242
+    margin-left 25%
+    margin-top 20px 
+    +below(1600px)
+      font-size 20px
+      margin-top 25px 
+    +below($tablet)
+      font-size 17px
+      text-align center
+      margin-left 0px
+      margin-top 10px
+    +below($mobile)
+      display none
+  .mainbutton
+    border-radius 4px
+    background #cc9833
+    color white
+    width 317px
+    height 55px
+    &:hover
+      background #ddb057
+    +below($tablet)
+      width 250px
+      height 43px
+    +below($mobile)
+      display none
+    p
+      muli 19
+      font-weight 900
+      text-transform uppercase
+      letter-spacing 0.5px
+      text-align center
+      padding-top 13px
+      +below($tablet)
+        muli 14
+
+.arrow1
+  font-size 70px
+  margin-top 15px
+  margin-bottom -20px
+  text-align center
+  color #dbc86c
+
+// Diferenciais
+
+.cards-father
+  overflow hidden
+  display block
+  padding-bottom 50px
+  background-color #422f07
+  +above(1600px)
+    margin-left auto
+    margin-right auto
+  .arrow1
+    margin-bottom 25px
+  .cards
+    display flex
+    justify-content center
+    column-gap 40px
+    transform translateY(1000px)
+    transition 2s all
+    +below($tablet)
+      flex-wrap wrap
+      max-width 560px
+      margin-right auto
+      margin-left auto
+    .son-um
+      width 258px
+      height 438px
+      background-color #f8f8f8
+      border-radius 10px
+      margin 40px 0
+      +below($tablet)
+        margin 10px 0
+      +below($mobile)
+        margin 15px 0
+      img
+        width 77px
+        height 77px
+        margin 20px 35%
+      h3
+        lato 20
+        color #630
+        font-weight 900
+        padding 5px 20px
+        text-align center
+      p
+        lato 18
+        color #555
+        text-align center
+        padding 20px
+    .son-dois
+      width 258px
+      height 438px
+      background-color #f8f8f8
+      border-radius 10px
+      margin 70px 0
+      +below($tablet)
+        margin 50px 0
+      +below($mobile)
+        margin 15px 0
+      img
+        width 77px
+        height 77px
+        margin 20px 35%
+      h3
+        lato 20
+        color #630
+        font-weight 900
+        padding 20px
+        text-align center
+      p
+        lato 18
+        color #555
+        text-align center
+        padding 20px
+
+.cards2
+  transform translateY(0)!important
+    
+// Abertura
+
+.abertura
+  background-color #ededed
+  padding 110px 0 170px
+  +below($mobile)
+    padding 90px 0 90px
+  .smallimg
+    width 400px
+    height auto
+    display block
+    margin-left auto
+    margin-right auto
+    border-radius 5px
+    padding-bottom 50px
+    +above($tablet)
+      display none
+    +below($mobile)
+      width 270px
+      height auto
+  .uniquebox
+    width 690px
+    height 600px
+    background-color #fff
+    box-shadow rgba(133, 155, 174, 0.14) 0px 0px 9px 6px
+    position relative
+    margin-left 40%
+    +below($tablet)
+      position static
+      display block
+      margin-right auto
+      margin-left auto
+      height 500px
+    +below($mobile)
+      width 290px
+      height 675px
+    .bigimg
+      position absolute
+      left -360px
+      top 170px
+      border-radius 3px
+      +below($tablet)
+        display none
+    h3
+      lato 38
+      font-weight 900
+      color #212529
+      text-align end
+      padding 50px 30px 22px
+      +below($tablet)
+        text-align center
+      +below($mobile)
+        lato 2h
+    .p1 
+      muli 20
+      color #7f8c8d
+      line-height 45px
+      text-align end
+      margin-left 260px
+      padding 10px 30px
+      +below($tablet)
+        text-align center
+        margin-left 0
+      +below($mobile)
+        muli 16
+        line-height 35px
+    .p2
+      muli 20
+      color #7f8c8d
+      font-weight 700
+      margin 30px 0 30px 245px
+      text-align end
+      padding 10px 30px
+      +below($tablet)
+        text-align center
+        margin-left 0
+  
+  .btn_unq
+    width 300px
+    height 55px
+    background-color #e7ae3b
+    border-radius 1px
+    margin-left 370px
+    margin-top 20px
+    +below($tablet)
+      text-align center
+      margin-left auto
+      margin-right auto
+    +below($mobile)
+      width 250px
+    &:hover
+      background-color #be8d2b
+    .btn_abertura
+      width 300px
+      height 55px
+      +below($mobile)
+        width 250px
+      .p3 
+        lato 19
+        font-weight 900
+        color #FFF
+        text-align center
+        padding-top 14px
+
+// Serviços
+
+.servicos
+  background-color #1e1e1c
+  padding-bottom 90px
+  overflow hidden
+  h2
+    muli 45
+    color #FFF
+    font-weight 900
+    text-align center
+    padding 50px 0
+  .serv1
+    width 830px
+    height 410px
+    background-color #FFF
+    box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+    margin-left 20%
+    margin-bottom 175px
+    position relative
+    transform translateX(-1684px)
+    transition 1.5s all
+    +above(1600px)
+      margin-left 24%
+    +below($tablet)
+      position static
+      display block
+      margin-right auto
+      margin-left auto
+      width 700px
+      height 710px
+      margin-bottom 60px
+    +below($mobile)
+      width 280px
+      height 980px
+      margin-bottom 30px
+      margin-right auto
+      margin-left auto
+    h3
+      lato 26
+      font-weight 900
+      color #212529
+      padding 30px 50px
+      +below($tablet)
+        text-align center
+        lato 40
+      +below($mobile)
+        lato 25
+        padding 10px
+    ul 
+      margin-right 250px
+      +below($tablet)
+        margin 10px 0
+      +below($mobile)
+        margin 25px 0
+        padding 0 40px
+        line-height 22px
+    p, li
+      muli 15
+      color #212529
+      margin 0 50px
+      +below($tablet)
+        margin 0 50px
+        muli 17
+      +below($mobile)
+        margin 5px
+        muli 14
+    .serbig1
+      position absolute
+      left 645px
+      top 220px
+      width 280px
+      box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+      +below($tablet)
+        display none
+
+  .serv2
+    width 855px
+    height 340px
+    background-color #FFF
+    box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+    margin-left 20%
+    margin-bottom 150px
+    position relative
+    transform translateX(1684px)
+    transition 1.5s all
+    +above(1600px)
+      margin-left 24%
+    +below($tablet)
+      position static
+      display block
+      margin-right auto
+      margin-left auto
+      width 700px
+      height 630px
+      margin-bottom 60px
+    +below($mobile)
+      width 280px
+      height 650px
+      margin-bottom 30px
+      margin-right auto
+      margin-left auto
+    h3
+      lato 26
+      font-weight 900
+      color #212529
+      padding 30px 50px
+      text-align end
+      +below($tablet)
+        text-align center
+        lato 40
+      +below($mobile)
+        lato 25
+        padding 10px
+    ul 
+      +below($mobile)
+        margin 10px 0
+        padding 0 40px
+        line-height 22px
+    p, li
+      muli 15
+      color #212529
+      margin-right 50px
+      margin-left 250px
+      text-align end
+      list-style none
+      +below($tablet)
+        text-align left
+        muli 17
+        margin 0 50px
+      +below($mobile)
+        margin 5px
+        muli 14
+    .serbig2
+      position absolute
+      left -80px
+      top 150px
+      width 280px
+      box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+      +below($tablet)
+        display none
+
+  .serv3
+    width 850px
+    height 495px
+    background-color #FFF
+    box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+    margin-left 20%
+    margin-bottom 80px
+    position relative
+    transform translateX(-1684px)
+    transition 1.5s all
+    +above(1600px)
+      margin-left 24%
+    +below($tablet)
+      position static
+      display block
+      margin-right auto
+      margin-left auto
+      width 700px
+      height 825px
+      margin-bottom 60px
+    +below($mobile)
+      width 280px
+      height 1060px
+      margin-bottom 30px
+      margin-right auto
+      margin-left auto
+    h3
+      lato 26
+      font-weight 900
+      color #212529
+      padding 30px 50px
+      +below($tablet)
+        text-align center
+        lato 40
+      +below($mobile)
+        lato 25
+        padding 10px
+    ul 
+      margin-right 250px
+      +below($tablet)
+        margin 10px 0
+      +below($mobile)
+        display block
+        margin-top 10px
+        margin-bottom 10px
+        margin-left auto
+        margin-right auto
+        padding 0 50px
+        line-height 22px
+    p, li
+      muli 15
+      color #212529
+      margin 0 50px
+      +below($tablet)
+        muli 17
+      +below($mobile)
+        margin 5px
+        muli 14 
+    .serbig3
+      position absolute
+      left 640px
+      top 300px
+      width 280px
+      box-shadow rgb(215, 201, 112) 0px 0px 11px 4px
+      +below($tablet)
+        display none
+
+  .serbig4
+    margin-left 20px
+    +above($tablet)
+      display none
+    +below($tablet)
+      display block
+      margin-left auto
+      margin-right auto
+      padding 30px 0
+    +below($mobile)
+      width 250px
+  .serbig5
+    +above($tablet)
+      display none
+    +below($tablet)
+      display block
+      margin-left auto
+      margin-right auto
+      padding 30px 0
+    +below($mobile)
+      width 250px
+  .serbig6
+    +above($tablet)
+      display none
+    +below($tablet)
+      display block
+      margin-left auto
+      margin-right auto
+      padding 30px 0
+    +below($mobile)
+      width 250px
+
+  .btn_ser
+    width 360px
+    height 65px
+    background-color #e7ae3b
+    box-shadow rgb(215, 201, 112) 0px 0px 10px 5px
+    border-radius 5px
+    margin-left 370px
+    margin-top 20px
+    transform scale(0.1)
+    transition all 0.7s
+    +below($tablet)
+      text-align center
+      margin-left auto
+      margin-right auto
+    +below($mobile)
+      width 250px
+      margin-top 60px
+    &:hover
+      background-color #be8d2b
+    .btn_todos
+      width 360px
+      height 65px
+      +below($mobile)
+        width 250px
+      .p4 
+        lato 20
+        font-weight 900
+        color #FFF
+        text-align center
+        padding-top 18px
+        +below($mobile)
+          lato 18
+
+.servcenter
+  transform translateX(0)!important
+
+.btn_new
+  transform scale(1.0)!important
+
+// Certificados
+
+.cert_div
+  background-color #f0f3f5
+  .cert_principal
+    display flex
+    max-width 80%
+    margin-right auto
+    margin-left auto
+    column-gap 60px
+    +above(1600px)
+      max-width 65%
+    +below($tablet)
+      flex-wrap wrap
+      justify-content center
+      text-align center
+    p
+      lato 29 
+      font-weight 700
+      display flex
+      align-items center
+      +below($tablet)
+        lato 22
+      +below($mobile)
+        lato 20
+    img
+      +below($mobile)
+        max-width 250px
+      
+  .img_cert
+    height 100px
+    display flex
+    justify-content space-evenly
+    padding-bottom 65px
+    +below($tablet)
+      flex-wrap wrap
+      justify-content space-around
+    +below($mobile)
+      justify-content center
+      column-gap 20px
+      padding-bottom 140px
+    img
+      height 100px
+      +below($tablet)
+        height 75px
+        margin-top 30px
+      +below($mobile)
+        height 65px
+
+// Contato / Mapa
+      
+.contatos
+  display block
+  padding 60px 0 80px
+  background-color #422f07
+  h5 
+    opens 40
+    font-weight 600
+    color #fff
+    letter-spacing -1px
+    text-align center
+    margin-bottom 40px
+    +below($mobile)
+      opens 25
+  .contatoscards
+    display flex
+    justify-content space-around
+    padding 0 100px
+    +above(1600px)
+      padding 0 200px
+    +below($tablet)
+      padding 0
+      display block
+      text-align center
+    h6 
+      lato 20
+      color #fff
+      font-weight 900
+      vertical-align middle
+      margin 10px 0
+      +below($tablet)
+        lato 30
+        margin-top 40px
+      +below($mobile)
+        lato 18
+    p
+      muli 14
+      color #fff
+      +below($tablet)
+        muli 19
+      +below($mobile)
+        muli 14
+#end
+  max-width 230px
+  margin-left auto
+  margin-right auto
+        
+.mapgoggle
+  margin-top 50px
+  width 1000px
+  height 572px
+  margin-left auto
+  margin-right auto
+  +below($tablet)
+    width 750px
+    height 450px
+  +below($mobile)
+    width 300px
+    height 200px
+
+// FAQ 
+
+.faixafaq
+  background-color #a4742a
+  height 215px
+  text-align center
+  h5 
+    lato 60
+    font-weight 900
+    color white
+    padding-top 45px
+
+.allblocos
+  margin-top -90px
+  margin-bottom 70px
+  .blocos
+      background-color #f9f9f9
+      max-width 822px
+      text-align justify
+      display block
+      margin 30px auto
+      box-shadow 2px 2px 8px rgba(24, 24, 24, 0.664)
+      border-radius 6px
+      padding 30px 50px
+      +below($tablet)
+        max-width 500px
+      +below($mobile)
+        max-width 230px
+        padding 30px 20px
+      h4 
+        color #683c10
+        lato 20
+        font-weight 900
+        margin-bottom 20px
+        +below($tablet)
+          lato 18
+        +below($mobile)
+          lato 16
+          text-align center
+      p
+        color #999999
+        lato 16
+        font-weight 500
+        margin-top 20px
+        +below($tablet)
+          lato 14
+      hr
+        border-top 1px solid lightgray
+
+// FOOTER
+
+.footer
+  background-color #343434
+  display flex
+  justify-content space-evenly
+  +below($mobile)
+    flex-wrap wrap
+  .firstb
+    margin 30px
+    text-align justify
+    +below($mobile)
+      margin 10px 30px
+    h6 
+      lato 15
+      color white
+      padding 20px 0
+    p
+      muli 13
+      color white
+      padding-bottom 20px
+  .secondb
+    margin 30px
+    max-width 260px
+    +below($mobile)
+      margin 10px 30px
+    p
+      lato 17
+      color white
+      font-weight 900
+      margin 20px 0
+      +below($mobile)
+        lato 15
+      

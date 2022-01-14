@@ -1,0 +1,166 @@
+.headermain
+    width 100%
+    height 75px
+    background #2c2c2c
+    
+    .mainheader
+        display flex
+        align-items center
+        justify-content space-around
+        position relative
+        
+        img
+            width 182px
+            height auto
+            padding 15px 15px
+            margin-top -4px
+
+        .menulongo
+            display flex
+            +below(1260px)
+                display none
+            ul
+                display flex
+                column-gap 10px
+                position relative
+                #termos
+                    lato 16
+                    font-weight 900
+                    color #fffdfa
+                    list-style none
+                    padding 8px
+                    cursor pointer
+                    text-transform uppercase
+                    &:hover
+                        background #dba047
+                        border-radius 5px  
+                a
+                    lato 16
+                    font-weight 900
+                    list-style none
+                    padding 10px
+                    color #fffdfa
+                    text-transform uppercase
+                    &:hover
+                        background #dba047
+                        border-radius 5px
+
+                .dropdown-content
+                    display none
+                    position absolute
+                    top 35px
+                    right 0
+                    background-color #2c2c2c
+                    min-width 160px
+                    box-shadow 0px 8px 16px 0px rgba(0,0,0,0.2)
+                    z-index 93
+                    a
+                        lato 14 bold
+                        padding 12px 16px
+                        text-decoration none
+                        display block
+                        &:hover 
+                            background-color #dba047
+
+        .menuburgerlist0
+            display none
+            +above(1260px)
+                display none
+        .menuburgerlist
+            display block!important
+            position absolute
+            top 70px
+            left 50%
+            transform translateX(-50%)
+            text-align center
+            width 90%
+            line-height 1.5
+            transition 1s all
+            background #2c2c2c
+            z-index 92
+            +above(1260px)
+                display none!important
+            a
+                montserrat 18 bold
+                list-style none
+                background #2c2c2c
+                &:hover
+                    background-color #dba047
+            ul
+                padding 0
+                text-align center
+                li
+                    padding 3px
+                    width 60%
+                    margin-right auto
+                    margin-left auto
+                    color #fff
+                    &:hover
+                        background-color #dba047
+
+        .menuburger
+            display block
+            background #cd9933
+            padding 14px 18px
+            color white
+            font-size 20px
+            cursor pointer
+            +above(1260px)
+                display none
+
+.aviso-cookies
+    display flex
+    width 100%
+    margin 0
+    flex-direction row
+    align-items center
+    justify-content center
+    bottom 0
+    background-color rgba(0, 0, 0, 0.8)
+    position fixed
+    z-index 999
+    padding 30px
+    +mobile()
+        flex-direction column
+        align-items center
+        padding 20px 
+    .frase-cookies
+        width 65%
+        notosans(14)
+        color #FFF
+        margin 0
+        .link-politica
+            text-decoration underline
+            &:hover
+            &:focus
+                font-weight bold
+        +below($tablet)
+            font-size 12px
+        +mobile()
+            width 100%
+            text-align center
+    .aceitar-cookies
+        width 15%
+        height 40px
+        notosans(14)
+        color #FFF
+        background-color transparent 
+        border 1px solid #FFF
+        border-radius 0
+        margin-left 30px
+        cursor pointer
+        outline none
+        &:hover
+        &:focus
+            border 1px solid $tomate
+            background-color $tomate
+        +below($tablet)
+            font-size 12px
+            height 30px
+        +mobile()
+            width 100%
+            text-align center
+            margin-left 0
+            margin-top 10px
+
+

@@ -1,0 +1,35 @@
+desktop-base-width     = 1285px
+rupture.desktop-cutoff = $tablet = 1260px
+rupture.mobile-cutoff  = $mobile = 768px
+rupture.anti-overlap   = -1px
+
+
+$verde      = #15872C
+$bgcolor = #f0f3f5
+$footerbg = #343434
+
+// Fonts
+lato($size)
+    font-family 'Lato', sans-serif
+    font-size $size + 0px
+
+muli($size)
+    font-family 'Mulish', sans-serif
+    font-size $size + 0px
+
+opens($size)
+    font-family 'Open Sans', sans-serif
+    font-size $size + 0px
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+montserrat($size, $weight = normal, $style = normal)
+    font-size $size + 0px
+    font-family 'montserrat', 'Helvetica', 'Arial', sans-serif
+    font-weight 500
+    font-style $style
+    if $weight == light
+        font-weight 300
+    if $weight == bold
+        font-weight 700
+
